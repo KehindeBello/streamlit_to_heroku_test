@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 
 st.title('Deploying Example for HDSC Capstone')
 # page_bg_img = '''
