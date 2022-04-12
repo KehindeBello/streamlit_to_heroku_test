@@ -8,7 +8,7 @@ st.title('Deploying Example for HDSC Capstone')
 with open('model_pkl' , 'rb') as f:
     lr = pickle.load(f)
 
-No_home_time = st.slider('Rate your home time',(1,2,3,4,5))
+No_home_time = st.slider('Rate your home time', 1, 5))
 Compatible_dreams = st.slider('Similar and harmonious dreams', 1, 5)
 Happy = st.slider('Same view about happiness',1,5)
 Similar_role_idea = st.slider('Similar role idea', 1, 5)
